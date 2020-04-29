@@ -1,0 +1,53 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.1.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    amazon-ecs (2.5.0)
+      nokogiri (~> 1.4)
+      ruby-hmac (~> 0.3)
+    concurrent-ruby (1.0.5)
+    crass (1.0.2)
+    dotenv (2.2.1)
+    english (0.6.3)
+      language
+    i18n (0.8.1)
+    json (2.1.0)
+    language (0.6.0)
+    mini_portile2 (2.1.0)
+    minitest (5.10.2)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    nokogumbo (1.4.9)
+      nokogiri
+    pkg-config (1.1.7)
+    rake (12.0.0)
+    ruby-hmac (0.4.0)
+    sanitize (4.1.0)
+      crass (~> 1.0.2)
+      nokogiri (>= 1.4.4)
+      nokogumbo (~> 1.4.1)
+    stringex (2.6.1)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  amazon-ecs
+  dotenv
+  english
+  json
+  rake
+  sanitize
+  stringex
+
+BUNDLED WITH
+   2.0.2
