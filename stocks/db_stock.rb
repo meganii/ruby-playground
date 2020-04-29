@@ -36,7 +36,7 @@ class DBStock
   end
 end
 
-ticker = '3237-T'
-db_stock = DBStock.new
-p db_stock.get_prices(ticker)
-p db_stock.get_current_price(ticker)
+# ticker = '3237-T'
+# db_stock = DBStock.new
+# p db_stock.get_prices(ticker)
+# p db_stock.get_current_price(ticker)

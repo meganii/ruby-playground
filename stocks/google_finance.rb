@@ -25,6 +25,7 @@ class GoogleFinance
     end
 
     response = conn.get { |req| req.params = params }
+    p response
     response
   end
 
@@ -59,11 +60,11 @@ class GoogleFinance
 end
 
 gf = GoogleFinance.new
-prices = gf.get_price('3237', 'TYO', '1Y', DateTime.now.to_datetime)
+# prices = gf.get_price('7183', 'TYO', '1Y', '2017-08-08')
 
-prices.each do |price|
-  p price
-end
+# prices.each do |price|
+#   p price
+# end
 
-current_price = gf.get_current_price('3237', 'TYO')
+current_price = gf.get_current_price('8411', 'TYO')
 p "current_price: #{current_price}"
