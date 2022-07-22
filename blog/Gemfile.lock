@@ -33,7 +33,7 @@ GEM
       nokogumbo (~> 1.4.1)
     stringex (2.6.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.3)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
 
 PLATFORMS
